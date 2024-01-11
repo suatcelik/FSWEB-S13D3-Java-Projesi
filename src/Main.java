@@ -6,7 +6,15 @@ public class Main {
         System.out.println("LastName: " + person1.getLastName());
         System.out.println("Age: " + person1.getAge());
         System.out.println("Is teen? " + person1.isTeen());
+
+        Wall wall = new Wall(13.2, 22.2);
+        System.out.println(wall.getWidth());
+        System.out.println(wall.getHeight());
+        System.out.println("area = " + wall.getArea());
+        System.out.println(wall.getHeight());
+        System.out.println(wall.getArea());
     }
+
 
 
 
